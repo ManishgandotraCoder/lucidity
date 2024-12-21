@@ -2,6 +2,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import FormModalComponent from "./form.modal";
 import { InputInterface } from "../../input/interface";
+import React from "react";
 
 // Mock InputComponent
 jest.mock("../../input/index.tsx", () => (props: InputInterface) => (

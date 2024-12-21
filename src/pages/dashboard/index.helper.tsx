@@ -5,7 +5,7 @@ import { AppDispatch, RootState } from "../../redux/store";
 import { getInventory } from "../../redux/authThunks";
 import { InventoryInterface } from "../../redux/authInterfaces";
 import { columnsInterface } from "./interface";
-
+import React from "react";
 const DashboardHelper = () => {
   const dispatch = useDispatch<AppDispatch>();
   const inventory = useSelector((state: RootState) => state.inventory);

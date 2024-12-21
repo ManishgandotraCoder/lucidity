@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
-
+import React from "react";
 const ToggleSwitch = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const initialRole = searchParams.get("role") === "admin";

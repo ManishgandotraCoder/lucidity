@@ -1,8 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import Header from ".";
-import ToggleComponent from "../toggle";
-
+import React from "react";
 // Mock ToggleComponent
 jest.mock("../toggle", () => () => (
   <div data-testid="toggle-component">Toggle</div>

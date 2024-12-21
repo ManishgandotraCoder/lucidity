@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import InputComponent from "./index";
-
+import React from "react";
 describe("InputComponent", () => {
   it("renders the component with a label", () => {
     render(<InputComponent label="Name" value="" onChange={jest.fn()} />);

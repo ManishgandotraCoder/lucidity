@@ -2,7 +2,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { MemoryRouter, useSearchParams } from "react-router-dom";
 import ToggleSwitch from "./index";
-
+import React from "react";
 // Mock useSearchParams
 jest.mock("react-router-dom", () => ({
   ...jest.requireActual("react-router-dom"),

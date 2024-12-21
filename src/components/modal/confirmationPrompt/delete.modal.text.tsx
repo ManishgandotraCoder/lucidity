@@ -1,6 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import ConfirmationPrompt from "./delete.modal";
+import React from "react";
 
 describe("ConfirmationPrompt", () => {
   const mockOnConfirm = jest.fn();

@@ -8,7 +8,7 @@ import {
   ConfirmationPromptInterface,
   FormModalInterface,
 } from "../modal/interface";
-
+import React from "react";
 // Mock Modals
 jest.mock("../modal/form/form.modal", () => (props: FormModalInterface) => (
   <div data-testid="modal">{props.title}</div>
