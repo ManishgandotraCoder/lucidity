@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Or "react" if using React 17 or older
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "ES6",
+    "module": "ESNext",
+    "strict": true
+  }
+}
