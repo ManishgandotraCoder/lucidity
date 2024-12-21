@@ -104,7 +104,7 @@ Lucidity is a simple inventory management application built with React and TypeS
 
 ## Deployment
 
-The project is deployed on **[Vercel](https://vercel.com/)** and can be accessed [here](https://your-deployed-site-link.vercel.app/).
+The project is deployed on **[Vercel](https://vercel.com/)** and can be accessed [here](https://lucidity-6lfjq6nih-manishgandotracoders-projects.vercel.app/).
 
 ---
 
@@ -131,6 +131,8 @@ The project is deployed on **[Vercel](https://vercel.com/)** and can be accessed
 ## Deliverables
 
 1. **Video Walkthrough**: A brief overview of the approach and insights.
+   1. https://www.loom.com/share/60c86d41103544dfb3926d65057b162c?sid=26aadc2d-9303-4676-96b6-8a40e598f50f
+   2. https://www.loom.com/share/60c86d41103544dfb3926d65057b162c?sid=9d0e6a85-c0d4-4923-9b17-c1ab4e1ee6fd
 2. **GitHub Repository**: [Lucidity GitHub Repository](https://github.com/your-repo/lucidity)
 3. **Deployed Application**: [Live Demo on Vercel](https://your-deployed-site-link.vercel.app/)
 
